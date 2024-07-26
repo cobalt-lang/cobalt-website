@@ -1,0 +1,76 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    gap: 0.25rem;
+}
+
+button {
+    background-color: #2d9c2d;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    color: white;
+    border-width: 1px;
+    border-color: #2d9c2d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #267e26;
+}
+
+.download-preferences-select {
+    font-size: 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px
+}
+
+a {
+    color: #7393B3;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #919191
+}
+
+.download-method-tabs {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(85, 96, 102);
+}
+
+.download-tabs-item {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.download-tabs-item.active {
+    border-bottom: 2px solid #7393B3;
+    color: #7393B3;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: #15202b;
+    }
+    .download-tabs-item {
+        color: white;
+    }
+}
