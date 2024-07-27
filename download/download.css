@@ -8,18 +8,30 @@ html {
     margin: auto;
 }
 
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 20px;
     font-family: "Lato", sans-serif;
-    gap: 0.25rem;
 }
 
-button {
+button.download {
     background-color: #2d9c2d;
     padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 20px;
     color: white;
     border-width: 1px;
@@ -29,7 +41,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+button.download:hover {
     background-color: #267e26;
 }
 
@@ -53,15 +65,21 @@ a:hover {
     color: var(--primary-color-hover)
 }
 
+a.no-style {
+    text-decoration: none;
+    color: black;
+}
+
 .footer-text {
     font-size: 14px;
+    padding: 0;
     color: #919191
 }
 
 .download-method-tabs {
     display: flex;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
     border-bottom: 1px solid rgb(85, 96, 102);
 }
 
@@ -89,6 +107,9 @@ a:hover {
     }
     .download-preferences-select {
         background-color: #15202b;
+        color: white;
+    }
+    a.no-style {
         color: white;
     }
 }

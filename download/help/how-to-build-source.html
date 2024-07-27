@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cobalt - How To Build from Source</title>
     <link rel="stylesheet" href="../download.css">
+    <style>
+        p {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
 <body>
     <p>!!! <strong>THIS FILE IS FOR USERS WHO WANT TO BUILD BINARIES FROM
         THE SOURCE CODE FOR THEIR OWN PLATFORM. WE RECOMMEND THAT IF A PREBUILT
         BINARY EXISTS FOR YOUR PLATFORM, USE IT.</strong> !!!</p>
-        <p>If you are on a platform that we do not make prebuilt binaries for,
-        you will have to build Cobalt yourself to use it.</p>
-        <p>You will need to install Rust, which includes Cargo. You can look up
-        how to do this if you aren’t sure.</p>
-        <p>After, change into this directory and run cargo build –release</p>
-        <p>This should automatically build an optimized binary executable for
+    <p>
+        If you are on a platform that we do not make prebuilt binaries for,
+        you will have to build Cobalt yourself to use it.
+    </p>
+    <p>
+        You will need to install Rust, which includes Cargo. You should be able to find installation instructions <a href="https://www.rust-lang.org/tools/install">here</a>.
+    </p>
+    <p>After, change into this directory and run <br><code style="background-color: black;">cargo build –release</code></p>
+    <p>
+        This should automatically build an optimized binary executable for
         your system. The produced binary should be placed in the path
         “target/release” relative to the root of the project. After that, you
-        can enjoy using Cobalt!</p>
+        can enjoy using Cobalt!
+    </p>
 </body>
 </html>

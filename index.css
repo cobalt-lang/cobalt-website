@@ -33,10 +33,19 @@ button:hover {
     width: 100vw; 
 }
 
+a.no-style {
+    text-decoration: none;
+    color: black;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: white;
         background-color: #15202b;
+    }
+
+    a.no-style {
+        color: white;
     }
 }
 
