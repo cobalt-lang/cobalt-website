@@ -5,9 +5,3 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
-    groups:
-      # Define a group called "all-minor-and-patch-updates"
-      all-minor-and-patch-updates:
-        patterns:
-          - dependency-name: "*"
-            update-types: ["version-update:semver-minor", "version-update:semver-patch"]
