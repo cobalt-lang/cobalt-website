@@ -11,7 +11,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "eslint .",
-		"deploy": "pnpm run build && wrangler deploy"
+		"deploy": "wrangler deploy"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.9",
