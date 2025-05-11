@@ -128,7 +128,7 @@
 <p>Install Cobalt
     <select id="download-version" class="download-preferences-select" bind:value={selectedVersion}>
         <!-- ADD NEW VERSIONS HERE!!! -->
-        <option value="v0.1.0">v0.1.0 (latest)</option>
+        <option value="v0.2.0">v0.2.0 (latest)</option>
     </select>
     for
     <select id="download-os" class="download-preferences-select" bind:value={selectedOS}>
