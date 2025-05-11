@@ -5,7 +5,7 @@
     // make OS type, if not then access to the architectures array like this: architectures[selectedOS] will return an error unless written like architectures[selectedOS as keyof typeof architectures], this type simplifies that
     type OS = "linux" | "windows" | "darwin";
 
-    let selectedVersion: string = "v0.1.0";
+    let selectedVersion: string = "v0.2.0";
     let selectedOS: OS = "linux";
     let selectedArchitecture: string = "x86_64";
 
