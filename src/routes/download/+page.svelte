@@ -5,7 +5,7 @@
     // make OS type, if not then access to the architectures array like this: architectures[selectedOS] will return an error unless written like architectures[selectedOS as keyof typeof architectures], this type simplifies that
     type OS = "linux" | "windows" | "darwin";
 
-    let selectedVersion: string = "v0.2.0";
+    let selectedVersion: string = "v0.3.0";
     let selectedOS: OS = "linux";
     let selectedArchitecture: string = "x86_64";
 
@@ -14,8 +14,7 @@
 
     const architectures = {
         windows: [
-            { label: "64-bit", value: "x86_64" },
-            { label: "ARM64", value: "aarch64" }
+            { label: "64-bit", value: "x86_64" }
         ],
         linux: [
             { label: "64-bit", value: "x86_64" },
@@ -128,7 +127,7 @@
 <p>Install Cobalt
     <select id="download-version" class="download-preferences-select" bind:value={selectedVersion}>
         <!-- ADD NEW VERSIONS HERE!!! -->
-        <option value="v0.2.0">v0.2.0 (latest)</option>
+        <option value="v0.3.0">v0.3.0 (latest)</option>
     </select>
     for
     <select id="download-os" class="download-preferences-select" bind:value={selectedOS}>
