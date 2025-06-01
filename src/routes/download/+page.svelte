@@ -1,12 +1,11 @@
 <script lang="ts">
-    export const csr = false;
-    export const prerender = true;
+    import semver from "semver";
 
     // make OS type, if not then access to the architectures array like this: architectures[selectedOS] will return an error unless written like architectures[selectedOS as keyof typeof architectures], this type simplifies that
     type OS = "linux" | "windows" | "darwin";
 
     // ADD NEW VERSIONS HERE!
-    let selectedVersion: string = "v0.7.1";
+    let selectedVersion: string = "v0.8.0";
     let selectedOS: OS = "linux";
     let selectedArchitecture: string = "x86_64";
 
@@ -28,8 +27,17 @@
         ]
     };
 
+    /// Get the extension for the archive .tar.gz/.tar.xz depending on the version.
+    function archiveExtension(selectedVersion: string): string {
+        if (semver.gte(semver.clean(selectedVersion)!, "v0.8.0")) {
+            return ".tar.xz";
+        }
+
+        return ".tar.gz";
+    }
+
     $: {
-        fileex = selectedOS === "windows" || selectedOS === "darwin" ? ".zip" : ".tar.gz";
+        fileex = selectedOS === "windows" || selectedOS === "darwin" ? ".zip" : archiveExtension(selectedVersion);
         downloadLink = `https://github.com/cobalt-lang/cobalt-lang/releases/download/${selectedVersion}/cobalt-${selectedVersion}-${selectedOS}-${selectedArchitecture}${fileex}`;
     }
 
@@ -128,7 +136,8 @@
 <p>Install Cobalt
     <select id="download-version" class="download-preferences-select" bind:value={selectedVersion}>
         <!-- ADD NEW VERSIONS HERE!!! -->
-        <option value="v0.7.1">v0.7.1 (latest)</option>
+        <option value="v0.8.0">v0.8.0 (latest)</option>
+        <option value="v0.7.1">v0.7.1</option>
         <option value="v0.7.0">v0.7.0</option>
         <option value="v0.6.0">v0.6.0</option>
         <option value="v0.5.0">v0.5.0</option>

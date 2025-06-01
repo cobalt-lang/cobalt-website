@@ -1,8 +1,3 @@
-<script lang="ts">
-    export const csr = false;
-    export const prerender = true;
-</script>
-
 <style>
 :global(html) {
     display: table;

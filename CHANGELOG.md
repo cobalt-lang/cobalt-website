@@ -1,3 +1,31 @@
+# v0.6.0
+
+## Added
+
+- v0.8.0 is now available on the download page.
+- Added `semver` package to package.json.
+
+## Changed
+
+- Versions before v0.8.0 will use .tar.gz for linux downloads, v0.8.0 and later will use .tar.xz.
+
+## Removed
+
+- Removed `csr` and `prerender` exports from pages as they were not used and do not affect anything negatively.
+
+## Dependency Updates
+
+- Updated `@sveltejs/adapter-auto` from `v6.0.0` to `v6.0.1`.
+- Updated `@eslint/js` from `v9.26.0` to `v9.28.0`.
+- Updated `@sveltejs/kit` from `v2.20.8` to `v2.21.1`.
+- Updated `eslint` from `v9.26.0` to `v9.28.0`.
+- Updated `eslint-plugin-svelte` from `v3.5.1` to `v3.9.0`.
+- Updated `globals` from `v16.1.0` to `v16.2.0`.
+- Updated `svelte` from `v5.28.2` to `v5.33.11`.
+- Updated `svelte-check` from `v4.1.7` to `v4.2.1`.
+- Updated `typescript-eslint` from `v8.32.0` to `v8.33.0`.
+- Updated `wrangler` from `v4.14.4` to `v4.18.0`.
+
 # v0.5.0
 
 ## Added
