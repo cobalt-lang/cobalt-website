@@ -1,3 +1,15 @@
+# v0.7.0
+
+## Added
+
+- v0.9.0 is now available on the download page.
+
+## Dependency Updates
+
+- Updated `svelte` from `v5.33.11` to `v5.33.14`.
+- Updated `eslint-plugin-svelte` from `v3.9.0` to `v3.9.1`.
+- Updated `typescript-eslint` from `v8.33.0` to `v8.33.1`.
+
 # v0.6.0
 
 ## Added
