@@ -1,7 +1,7 @@
 {
 	"name": "cobalt-website",
 	"private": true,
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -18,8 +18,8 @@
 		"@eslint/js": "^9.28.0",
 		"@sveltejs/adapter-auto": "^6.0.1",
 		"@sveltejs/adapter-cloudflare": "^7.0.3",
-		"@sveltejs/kit": "^2.21.1",
-		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@sveltejs/kit": "^2.21.2",
+		"@sveltejs/vite-plugin-svelte": "^5.1.0",
 		"@types/semver": "^7.7.0",
 		"eslint": "^9.28.0",
 		"eslint-plugin-svelte": "^3.9.1",
@@ -29,7 +29,7 @@
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.33.1",
 		"vite": "^6.3.5",
-		"wrangler": "^4.18.0"
+		"wrangler": "^4.19.1"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [

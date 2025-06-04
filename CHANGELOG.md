@@ -1,3 +1,15 @@
+# v0.8.0
+
+## Added
+
+- v0.9.1 is now available on the download page.
+
+## Dependency Updates
+
+- Updated `@sveltejs/kit` from `v2.21.1` to `v2.21.2`.
+- Updated `@sveltejs/vite-plugin-svelte` from `v5.0.3` to `v5.1.0`.
+- Updated `wrangler` from `v4.18.0` to `v4.19.1`.
+
 # v0.7.0
 
 ## Added
