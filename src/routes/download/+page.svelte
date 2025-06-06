@@ -5,7 +5,7 @@
     type OS = "linux" | "windows" | "darwin";
 
     // ADD NEW VERSIONS HERE!
-    let selectedVersion: string = "v0.9.1";
+    let selectedVersion: string = "v0.9.2";
     let selectedOS: OS = "linux";
     let selectedArchitecture: string = "x86_64";
 
@@ -136,7 +136,8 @@
 <p>Install Cobalt
     <select id="download-version" class="download-preferences-select" bind:value={selectedVersion}>
         <!-- ADD NEW VERSIONS HERE!!! -->
-        <option value="v0.9.1">v0.9.1 (latest)</option>
+        <option value="v0.9.2">v0.9.2 (latest)</option>
+        <option value="v0.9.1">v0.9.1</option>
         <option value="v0.9.0">v0.9.0</option>
         <option value="v0.8.0">v0.8.0</option>
         <option value="v0.7.1">v0.7.1</option>
