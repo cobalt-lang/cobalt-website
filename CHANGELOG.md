@@ -1,3 +1,9 @@
+# v0.10.0
+
+## Added
+
+- v0.10.0 is now available on the download page.
+
 # v0.9.0
 
 ## Added
