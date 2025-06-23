@@ -1,3 +1,13 @@
+# v0.11.0
+
+## Added
+
+- v0.10.1 is now available on the download page.
+
+## Bug Fixes
+
+- Fixed two versions saying latest at the same time.
+
 # v0.10.0
 
 ## Added
