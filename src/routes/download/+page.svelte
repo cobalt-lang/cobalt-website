@@ -136,7 +136,8 @@
 <p>Install Cobalt
     <select id="download-version" class="download-preferences-select" bind:value={selectedVersion}>
         <!-- ADD NEW VERSIONS HERE!!! -->
-	<option value="v0.10.1">v0.10.1 (latest)</option>
+        <option value="v0.10.2">v0.10.2 (latest)</option>
+	    <option value="v0.10.1">v0.10.1</option>
         <option value="v0.10.0">v0.10.0</option>
         <option value="v0.9.2">v0.9.2</option>
         <option value="v0.9.1">v0.9.1</option>
@@ -158,12 +159,13 @@
     </select>
     running
     <select id="download-architecture" class="download-preferences-select" bind:value={selectedArchitecture}>
-        {#each architectures[selectedOS] as { label, value }}
-        <option value={value}>{label}</option>
-    {/each}
+        {#each architectures[selectedOS] as { label, value } (value)}
+            <option value={value}>{label}</option>
+        {/each}
     </select>
 </p>
 
+<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 <a href="{downloadLink}" target="_blank" style="display: inline-block; text-decoration: none;">
     <button><i class="fa fa-download" style="padding-right: 5px;"></i> Download Cobalt</button>
 </a>

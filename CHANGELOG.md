@@ -1,3 +1,35 @@
+# v0.12.0
+
+## Added
+
+- v0.10.2 is now available on the download page.
+
+## Changed
+
+- Changed Wrangler compatibility date to October 10th, 2025.
+- Addressed ESLint issues.
+
+## Dependency Updates
+
+- Updated `@types/semver` from `v7.7.0` to `v7.7.1`.
+- Updated `semver` from `v7.7.2` to `v7.7.3`.
+- Updated `@eslint/compat` from `v1.2.9` to `v1.4.0`.
+- Updated `@eslint/js` from `v9.28.0` to `v9.37.0`.
+- Updated `@sveltejs/adapter-auto` from `v6.0.1` to `v6.1.1`.
+- Updated `@sveltejs/adapter-cloudflare` from `v7.0.3` to `v7.2.4`.
+- Updated `@sveltejs/kit` from `v2.21.2` to `v2.46.4`.
+- Updated `eslint` from `v9.28.0` to `v9.37.0`.
+- Updated `eslint-plugin-svelte` from `v3.9.1` to `v3.12.4`.
+- Updated `globals` from `v16.2.0` to `v16.4.0`.
+- Updated `svelte` from `v5.33.14` to `v5.39.11`.
+- Updated `svelte-check` from `v4.2.1` to `v4.3.3`.
+- Updated `typescript` from `v5.8.3` to `v5.9.3`.
+- Updated `typescript-eslint` from `v8.33.1` to `v8.46.0`.
+- Updated `wrangler` from `v4.19.1` to `v4.42.2`.
+- Updated `@sveltejs/vite-plugin-svelte` from `v5.1.0` to `v6.2.1`.
+- Updated `vite` from `v6.3.5` to `v7.1.9`.
+
+
 # v0.11.0
 
 ## Added

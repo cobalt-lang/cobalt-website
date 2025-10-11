@@ -70,5 +70,6 @@ button:hover {
     <p>
         The quickest way is to download our language! This download comes with the CLI required to run your code!
     </p>
+    <!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
     <a href="/download"><button>Download Cobalt</button></a>
 </div>
