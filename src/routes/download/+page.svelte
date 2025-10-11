@@ -5,7 +5,7 @@
     type OS = "linux" | "windows" | "darwin";
 
     // ADD NEW VERSIONS HERE!
-    let selectedVersion: string = "v0.10.1";
+    let selectedVersion: string = "v0.10.2";
     let selectedOS: OS = "linux";
     let selectedArchitecture: string = "x86_64";
 
